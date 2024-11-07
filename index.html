@@ -6,18 +6,17 @@
   <title>Foundation Framework</title>
  
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation-float.min.css" crossorigin="anonymous">
-
-
+<!--Para css-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation-prototype.min.css" crossorigin="anonymous">
-
-<!-- foundation-rtl.min.css: Compressed CSS with right-to-left reading direction -->
+<!--Para js-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation-rtl.min.css" crossorigin="anonymous">
   <!-- Compressed CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" crossorigin="anonymous">
   <link rel="stylesheet" href="todo-list-card.css">
-  <link rel="stylesheet" href="layout.css">
+  
 </head>
 <body>
+  <div class="container">
   <div data-closable="fade-out" class="todo-list-card card">
   <div class="card-divider">
     <h3>To Do List</h3>
@@ -34,7 +33,18 @@
     </ul>
   </div>
 </div>
-  <!-- Compressed JavaScript -->
+<ul class="pagination pagination-circular" role="navigation" aria-label="Pagination">
+  <li class="disabled">« <span class="show-for-sr">Previous page</span></li>
+  <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+  <li><a href="#" aria-label="Page 2">2</a></li>
+  <li><a href="#" aria-label="Page 3">3</a></li>
+  <li><a href="#" aria-label="Page 4">4</a></li>
+  <li><a href="#" aria-label="Page 5">5</a></li>
+  <li><a href="#" aria-label="Next page">» <span class="show-for-sr">Next page</span></a></li>
+</ul>
+</div>
+
+ <!-- Compressed JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
